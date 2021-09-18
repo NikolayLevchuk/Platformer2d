@@ -1,0 +1,272 @@
+
+Cop-Lite.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 264, 8
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+clop
+  rotate: true
+  xy: 79, 152
+  size: 23, 116
+  orig: 23, 116
+  offset: 0, 0
+  index: -1
+ear
+  rotate: false
+  xy: 472, 327
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+eye close left
+  rotate: true
+  xy: 102, 27
+  size: 53, 12
+  orig: 53, 12
+  offset: 0, 0
+  index: -1
+eye close right
+  rotate: false
+  xy: 466, 51
+  size: 41, 13
+  orig: 41, 13
+  offset: 0, 0
+  index: -1
+eye iris left
+  rotate: true
+  xy: 466, 66
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+eye iris right
+  rotate: false
+  xy: 449, 285
+  size: 21, 42
+  orig: 21, 42
+  offset: 0, 0
+  index: -1
+eye pupil left
+  rotate: true
+  xy: 466, 29
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+eye pupil right
+  rotate: false
+  xy: 56, 51
+  size: 15, 32
+  orig: 15, 32
+  offset: 0, 0
+  index: -1
+eyebrow left
+  rotate: true
+  xy: 472, 459
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+eyebrow right
+  rotate: true
+  xy: 472, 406
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+eyes white back
+  rotate: true
+  xy: 2, 15
+  size: 116, 52
+  orig: 116, 52
+  offset: 0, 0
+  index: -1
+freckless
+  rotate: false
+  xy: 77, 82
+  size: 74, 27
+  orig: 74, 27
+  offset: 0, 0
+  index: -1
+glasses
+  rotate: false
+  xy: 266, 277
+  size: 181, 50
+  orig: 181, 50
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 2, 177
+  size: 172, 199
+  orig: 172, 199
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 264, 142
+  size: 180, 133
+  orig: 180, 133
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 268, 329
+  size: 181, 202
+  orig: 181, 202
+  offset: 0, 0
+  index: -1
+left lower hand
+  rotate: true
+  xy: 446, 221
+  size: 28, 57
+  orig: 28, 57
+  offset: 0, 0
+  index: -1
+left palm
+  rotate: false
+  xy: 398, 93
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+left shoe
+  rotate: false
+  xy: 2, 135
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+left upper hand Upper
+  rotate: false
+  xy: 446, 95
+  size: 53, 99
+  orig: 53, 99
+  offset: 0, 0
+  index: -1
+leg left lower
+  rotate: true
+  xy: 203, 317
+  size: 32, 61
+  orig: 32, 61
+  offset: 0, 0
+  index: -1
+leg left upper
+  rotate: false
+  xy: 203, 225
+  size: 59, 90
+  orig: 59, 90
+  offset: 0, 0
+  index: -1
+leg right lower
+  rotate: true
+  xy: 449, 251
+  size: 32, 60
+  orig: 32, 60
+  offset: 0, 0
+  index: -1
+leg right upper
+  rotate: false
+  xy: 203, 133
+  size: 59, 90
+  orig: 59, 90
+  offset: 0, 0
+  index: -1
+moustache
+  rotate: true
+  xy: 73, 13
+  size: 67, 27
+  orig: 67, 27
+  offset: 0, 0
+  index: -1
+mouth anger
+  rotate: true
+  xy: 56, 85
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+mouth idle
+  rotate: false
+  xy: 472, 285
+  size: 33, 9
+  orig: 33, 9
+  offset: 0, 0
+  index: -1
+mouth open
+  rotate: true
+  xy: 466, 8
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+mouth screaming
+  rotate: true
+  xy: 472, 296
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+mouth smile
+  rotate: false
+  xy: 446, 196
+  size: 56, 23
+  orig: 56, 23
+  offset: 0, 0
+  index: -1
+mouth with tonge
+  rotate: false
+  xy: 472, 378
+  size: 38, 26
+  orig: 38, 26
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 486, 13
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+pistol-case
+  rotate: true
+  xy: 203, 99
+  size: 32, 53
+  orig: 32, 53
+  offset: 0, 0
+  index: -1
+police-hat
+  rotate: false
+  xy: 2, 351
+  size: 264, 159
+  orig: 264, 159
+  offset: 0, 0
+  index: -1
+right palm
+  rotate: false
+  xy: 156, 102
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+rightshoe
+  rotate: false
+  xy: 79, 111
+  size: 75, 39
+  orig: 75, 39
+  offset: 0, 0
+  index: -1
+shadow face
+  rotate: true
+  xy: 398, 13
+  size: 78, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1

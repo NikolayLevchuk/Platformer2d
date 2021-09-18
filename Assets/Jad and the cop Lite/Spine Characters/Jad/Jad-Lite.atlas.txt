@@ -1,0 +1,244 @@
+
+Jad-Lite.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back pack
+  rotate: false
+  xy: 136, 179
+  size: 64, 101
+  orig: 64, 101
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 148
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+ear
+  rotate: true
+  xy: 334, 69
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+eye close left
+  rotate: false
+  xy: 196, 7
+  size: 53, 12
+  orig: 53, 12
+  offset: 0, 0
+  index: -1
+eye close right
+  rotate: true
+  xy: 364, 26
+  size: 41, 13
+  orig: 41, 13
+  offset: 0, 0
+  index: -1
+eye iris left
+  rotate: false
+  xy: 167, 6
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+eye iris right
+  rotate: false
+  xy: 176, 50
+  size: 21, 42
+  orig: 21, 42
+  offset: 0, 0
+  index: -1
+eye pupil left
+  rotate: false
+  xy: 52, 17
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+eye pupil right
+  rotate: false
+  xy: 223, 195
+  size: 15, 32
+  orig: 15, 32
+  offset: 0, 0
+  index: -1
+eyebrow left
+  rotate: true
+  xy: 202, 229
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+eyebrow right
+  rotate: true
+  xy: 127, 2
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+eyes white back
+  rotate: false
+  xy: 82, 94
+  size: 116, 52
+  orig: 116, 52
+  offset: 0, 0
+  index: -1
+freckless
+  rotate: false
+  xy: 2, 51
+  size: 74, 27
+  orig: 74, 27
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: false
+  xy: 242, 107
+  size: 172, 199
+  orig: 172, 199
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: false
+  xy: 2, 282
+  size: 238, 228
+  orig: 238, 228
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 242, 308
+  size: 181, 202
+  orig: 181, 202
+  offset: 0, 0
+  index: -1
+left lower hand
+  rotate: false
+  xy: 334, 10
+  size: 28, 57
+  orig: 28, 57
+  offset: 0, 0
+  index: -1
+left palm
+  rotate: true
+  xy: 78, 7
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+left shoe
+  rotate: true
+  xy: 200, 102
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+left upper hand Upper
+  rotate: true
+  xy: 82, 55
+  size: 37, 92
+  orig: 37, 92
+  offset: 0, 0
+  index: -1
+leg left lower
+  rotate: true
+  xy: 385, 73
+  size: 32, 61
+  orig: 32, 61
+  offset: 0, 0
+  index: -1
+leg left upper
+  rotate: true
+  xy: 242, 46
+  size: 59, 90
+  orig: 59, 90
+  offset: 0, 0
+  index: -1
+leg right upper
+  rotate: true
+  xy: 242, 46
+  size: 59, 90
+  orig: 59, 90
+  offset: 0, 0
+  index: -1
+leg right lower
+  rotate: true
+  xy: 385, 39
+  size: 32, 60
+  orig: 32, 60
+  offset: 0, 0
+  index: -1
+mouth anger
+  rotate: true
+  xy: 202, 179
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+mouth idle
+  rotate: false
+  xy: 251, 10
+  size: 33, 9
+  orig: 33, 9
+  offset: 0, 0
+  index: -1
+mouth open
+  rotate: true
+  xy: 173, 158
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+mouth screaming
+  rotate: true
+  xy: 136, 148
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+mouth smile
+  rotate: false
+  xy: 241, 21
+  size: 56, 23
+  orig: 56, 23
+  offset: 0, 0
+  index: -1
+mouth with tonge
+  rotate: true
+  xy: 299, 6
+  size: 38, 26
+  orig: 38, 26
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 223, 179
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+right palm
+  rotate: true
+  xy: 2, 4
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+rightshoe
+  rotate: true
+  xy: 200, 25
+  size: 75, 39
+  orig: 75, 39
+  offset: 0, 0
+  index: -1
+shadow face
+  rotate: false
+  xy: 2, 80
+  size: 78, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
