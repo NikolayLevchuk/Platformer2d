@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HP
+  - HpPotion
+  - Armor
   layers:
   - Default
   - TransparentFX
@@ -13,9 +16,9 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
-  - 
-  - 
+  - Stairs
+  - Platforms
+  - Mechanism
   - 
   - 
   - 
@@ -43,6 +46,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 3283993715
     locked: 0
   - name: Foreground
     uniqueID: 3202111023
