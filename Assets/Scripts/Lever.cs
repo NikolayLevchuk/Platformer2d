@@ -5,7 +5,8 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     [SerializeField] private Sprite _activeSprite;
-
+    [SerializeField] private Chest _chest;
+    
     private SpriteRenderer _spriteRenderer;
 
     private Sprite _inactiveSprite;
@@ -25,6 +26,7 @@ public class Lever : MonoBehaviour
         {
             _spriteRenderer.sprite = _activeSprite;
             _activated = true;
+            _chest.Activated = true;
             Debug.Log("Activated!");
         }
     }
