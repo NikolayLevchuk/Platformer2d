@@ -82,7 +82,7 @@ public class EnemyStriker : MonoBehaviour
     public void Shoot()
     {
         Rigidbody2D Bullet = Instantiate(_bullet, _muzzle.position, Quaternion.identity);
-        Bullet.velocity = _bulletSpeed * transform.right;
+        Bullet.velocity = _bulletSpeed * transform.forward;
         _animator.SetBool(_shootAnimationKey, false);
         Invoke(nameof(CheckIfCanShoot), 1f);
     }
