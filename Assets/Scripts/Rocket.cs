@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
-
     [SerializeField] private int _damage;
     [SerializeField] private float _lifeTime;
 

@@ -20,7 +20,6 @@ public class BirdEnemy : MonoBehaviour
 
     private int _currentHp;
     private bool _canShoot;
-    private float _verticalDirection;
 
     private int CurrentHp
     {
@@ -64,7 +63,6 @@ public class BirdEnemy : MonoBehaviour
 
     private void Update()
     {
-        _verticalDirection = Input.GetAxisRaw("Vertical");
         _canvasRigidbody.transform.position = _point.transform.position;
 
         if (_faceRight && transform.position.x > _startPosition.x + _flyRange)
@@ -100,7 +98,8 @@ public class BirdEnemy : MonoBehaviour
 
     private void CheckIfCanShoot()
     {
-        Collider2D player = Physics2D.OverlapBox(transform.position, new Vector2(1, _attackRange), 0, _whatIsPlayer);
+        //Collider2D player = Physics2D.OverlapBox(transform.position, new Vector2(1, _attackRange), 0, _whatIsPlayer);
+        Collider2D player = Physics2D.OverlapBox(transform.position, new Vector2 (0, _attackRange), 0, _whatIsPlayer);
 
         if (player != null)
         {
@@ -116,8 +115,8 @@ public class BirdEnemy : MonoBehaviour
     public void Shoot()
     {
         Rigidbody2D Rocket = Instantiate(_rocket, _shootpoint.position, Quaternion.identity);
-        //Rocket.velocity = _rocketSpeed * transform.up;
-        Rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);
+        Rocket.velocity = Vector2.down * _rocketSpeed;
+        //Rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);
         //_rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);
         //Invoke(nameof(CheckIfCanShoot), 1f);
     }
