@@ -99,7 +99,7 @@ public class BirdEnemy : MonoBehaviour
     private void CheckIfCanShoot()
     {
         //Collider2D player = Physics2D.OverlapBox(transform.position, new Vector2(1, _attackRange), 0, _whatIsPlayer);
-        Collider2D player = Physics2D.OverlapBox(transform.position, new Vector2 (0, _attackRange), 0, _whatIsPlayer);
+        Collider2D player = Physics2D.OverlapBox(transform.position, new Vector2 (1, _attackRange), 20, _whatIsPlayer);
 
         if (player != null)
         {
@@ -114,8 +114,12 @@ public class BirdEnemy : MonoBehaviour
 
     public void Shoot()
     {
+
         Rigidbody2D Rocket = Instantiate(_rocket, _shootpoint.position, Quaternion.identity);
-        Rocket.velocity = Vector2.down * _rocketSpeed;
+        if (_canShoot == true)
+        {
+            Rocket.velocity = -transform.up * _rocketSpeed;
+        }
         //Rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);
         //_rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);
         //Invoke(nameof(CheckIfCanShoot), 1f);
