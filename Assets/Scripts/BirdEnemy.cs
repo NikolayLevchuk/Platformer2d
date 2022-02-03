@@ -10,8 +10,6 @@ public class BirdEnemy : MonoBehaviour
     [SerializeField] private int _maxHp;
     [SerializeField] private Slider _slider;
     [SerializeField] private GameObject _enemySystem;
-    [SerializeField] private Rigidbody2D _canvasRigidbody;
-    [SerializeField] private Transform _point;
     [SerializeField] private float _attackRange;
     [SerializeField] private LayerMask _whatIsPlayer;
     [SerializeField] private Transform _shootpoint;
@@ -63,8 +61,6 @@ public class BirdEnemy : MonoBehaviour
 
     private void Update()
     {
-        _canvasRigidbody.transform.position = _point.transform.position;
-
         if (_faceRight && transform.position.x > _startPosition.x + _flyRange)
         {
             Flip();
@@ -118,7 +114,7 @@ public class BirdEnemy : MonoBehaviour
         Rigidbody2D Rocket = Instantiate(_rocket, _shootpoint.position, Quaternion.identity);
         if (_canShoot == true)
         {
-            Rocket.velocity = -transform.up * _rocketSpeed;
+            Rocket.velocity = transform.up * _rocketSpeed;
         }
         //Rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);
         //_rocket.velocity = new Vector2(_rocket.velocity.x, _verticalDirection * _rocketSpeed);

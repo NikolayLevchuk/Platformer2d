@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5206021239467165253}
   - component: {fileID: 5206021239467165252}
   - component: {fileID: 5206021239467165255}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: HpPotion
   m_TagString: HpPotion
   m_Icon: {fileID: 0}

@@ -31,6 +31,11 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private string _crouchAnimatorKey;
     [SerializeField] private string _hurtAnimationKey;
 
+    [Header("Casting")]
+    [SerializeField] private GameObject _fireBall;
+    [SerializeField] private Transform _firePoint;
+    [SerializeField] private float _fireBallSpeed;
+
     [Header("UI")]
     [SerializeField] private TMP_Text _coinsAmountText;
     [SerializeField] private Slider _hpBar;
@@ -41,8 +46,8 @@ public class PlayerMove : MonoBehaviour
     private bool _jump;
     private bool _crawl;
     private int _coinsAmount;
-
     private float _lastPushTime;
+    private bool _isCasting;
 
     public int Coins 
     {
@@ -98,6 +103,11 @@ public class PlayerMove : MonoBehaviour
         }
 
         _crawl = Input.GetKey(KeyCode.C);
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            StartCast();
+        }
 
     }
 
@@ -197,6 +207,32 @@ public class PlayerMove : MonoBehaviour
             _rigidbody.AddForce(new Vector2(direction * pushPower / 2, pushPower));
             _animator.SetBool(_hurtAnimationKey, true);
         }
+    }
+
+    public void StartCast()
+    {
+        if (_isCasting)
+            return;
+        _isCasting = true;
+        _animator.SetBool("Casting", true);
+    }
+
+    private void CastFire()
+    {
+        GameObject fireball = Instantiate(_fireBall, _firePoint.position, Quaternion.identity);
+        fireball.GetComponent<Rigidbody2D>().velocity = transform.right * _fireBallSpeed;
+        if(_spriteRenderer.flipX)
+        {
+            fireball.GetComponent<Rigidbody2D>().velocity = -transform.right * _fireBallSpeed;
+            fireball.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        Destroy(fireball, 5f);
+    }
+
+    private void EndCast()
+    {
+        _isCasting = false;
+        _animator.SetBool("Casting", false);
     }
 
     private void ReloadScene()

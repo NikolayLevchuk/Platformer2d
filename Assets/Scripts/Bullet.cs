@@ -4,7 +4,7 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private int _damage;
     [SerializeField] private float _lifeTime;
-
+    [SerializeField] private GameObject explitionEffect;
     private void Start()
     {
         Invoke(nameof(Destroy), _lifeTime);
@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour
 
     private void Destroy()
     {
+        Instantiate(explitionEffect, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 

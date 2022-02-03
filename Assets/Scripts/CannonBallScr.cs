@@ -6,7 +6,7 @@ public class CannonBallScr : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private int _damage;
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,7 +30,7 @@ public class CannonBallScr : MonoBehaviour
 
         if (player != null)
         {
-            player.TakeDamage(_damage);
+            player.TakeDamage(_damage, 3000, transform.position.x);
         }
         Destroy();
     }

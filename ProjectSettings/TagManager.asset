@@ -21,8 +21,8 @@ TagManager:
   - Mechanism
   - Enemy
   - Enemy_projectile
-  - 
-  - 
+  - Player_projectile
+  - Item
   - 
   - 
   - 

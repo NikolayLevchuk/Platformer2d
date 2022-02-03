@@ -12,9 +12,7 @@ public class Crab : MonoBehaviour
     [SerializeField] private int _maxHp;
     [SerializeField] private Slider _slider;
     [SerializeField] private GameObject _enemySystem;
-    [SerializeField] private Rigidbody2D _canvasRigidbody;
-    [SerializeField] private Transform _point;
-
+    
     private int _currentHp;
     private int CurrentHp
     {
@@ -53,8 +51,6 @@ public class Crab : MonoBehaviour
     
     private void Update()
     {
-        _canvasRigidbody.transform.position = _point.transform.position;
-
         if (_faceRight && transform.position.x > _startPosition.x + _walkRange)
         {
             Flip();
@@ -86,6 +82,7 @@ public class Crab : MonoBehaviour
             player.TakeDamage(_damage, _pushPower, transform.position.x);
         }
     }
+
 
     public void TakeDamage(int damage)
     {
